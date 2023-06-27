@@ -5,9 +5,11 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+let body = document.getElementById('body');
+// body.style.backgroundImage="url()"
 root.render(
   <React.StrictMode>
-    <App />
+    <App body={body} />
   </React.StrictMode>
 );
 

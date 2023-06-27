@@ -1,0 +1,2 @@
+Using two packages accordian and paginate
+used GeoDB Rapid API ans OpenWeather API

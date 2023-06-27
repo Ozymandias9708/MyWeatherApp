@@ -8,4 +8,4 @@ export const options = {
 };
 
 export const url2 = "https://api.openweathermap.org/data/2.5";
-export const key ="d2d56fb378fd08106afe7e9743509001"
+export const key ="d2d56fb378fd08106afe7e9743509001"  ////have o move to gitIgnore

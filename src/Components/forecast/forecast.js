@@ -8,7 +8,7 @@ export default function Forecast({ response }) {
     const today = new Date().getDay();
     const nextDays = WEEK_DAYS.slice(today, WEEK_DAYS.length).concat(WEEK_DAYS.slice(0, today));
 
-    console.log(response)
+    // console.log(response)
 
     return (
         <div className="accordion" id="accordionExample">

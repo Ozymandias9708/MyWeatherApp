@@ -53,7 +53,7 @@
     flex: 1 1;
     grid-template-columns: auto auto;
     padding: 5px 15px;
-    row-gap: 0;
+    row-gap: 0; 
   }
   
   .daily-details-grid-item {

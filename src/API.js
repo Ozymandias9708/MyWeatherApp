@@ -7,6 +7,6 @@ export const options = {
 	}
 };
 
-console.log("dotenv",process.env.REACT_APP_API_KEY)
+
 export const url2 = "https://api.openweathermap.org/data/2.5";
 export const key =`${process.env.REACT_APP_API_KEY}`  ////have o move to gitIgnore

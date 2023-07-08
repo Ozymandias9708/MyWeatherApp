@@ -7,7 +7,7 @@ export default function CurrentWeather({ response,func }) {
     // const [city, setCity] = useState("Belgium");
     // const [weatherConditions, setWeatherConditions] = useState("Sunny")
     // const [temperature, setTemperature] = useState(26)
-    func(response);
+    func(response); 
     return (
         
         <div className="weather">
@@ -27,13 +27,13 @@ export default function CurrentWeather({ response,func }) {
                         <span className="label">Details</span>
                     </div>
                     <div className="row">
-                    <span className="label">Feels like </span>
+                    <span className="label">Feels like</span>
                         <span className="value">
                             {response.main.feels_like}°C
                         </span>
                     </div>
                     <div className="row">
-                        <span className="label">Wind </span>
+                        <span className="label">Wind</span>
                         <span className="value">{response.wind.speed} m/s</span>
                     </div>
                     <div className="row">
@@ -41,7 +41,7 @@ export default function CurrentWeather({ response,func }) {
                         <span className="value">{response.main.humidity}%</span>
                     </div>
                     <div className="row">
-                        <span className="label">Pressure </span>
+                        <span className="label">Pressure</span>
                         <span className="value">{response.main.pressure} hPa</span>
                     </div>
                 </div>
